@@ -74,7 +74,7 @@ function increaseLove() {
     if (lovePercent > 5000) {
       meterMessage.textContent = "WOOOOW You love me that much? (๑>◡<๑)";
     } else if (lovePercent > 1000) {
-      meterMessage.textContent = "I the evermost greatful for your love and caring.";
+      meterMessage.textContent = "I am the evermost greatful for your love and caring.";
     } else {
       meterMessage.textContent = "You forever dazzle me my star";
     }
