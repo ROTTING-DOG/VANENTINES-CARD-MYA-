@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Will You Be My Valentine? ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="floating-container"></div>
+
+<div class="card">
+  <h1 id="question"></h1>
+
+  <div id="meter" class="hidden">
+    <p id="meter-text">This much!</p>
+    <div class="bar">
+      <div class="fill"></div>
+    </div>
+    <p id="meter-message"></p>
+    <button onclick="nextQuestion()">Next ❤︎</button>
+  </div>
+
+  <div class="buttons">
+    <button id="yesBtn">Yes</button>
+    <button id="noBtn">No</button>
+  </div>
+
+  <p id="secret" class="secret"></p>
+</div>
+
+<div id="final" class="hidden">
+  <h1>Yay! I'm the luckiest person...</h1>
+  <p>Thank you so much for gracing my life with your presance and light.</p>
+  <div class="emojis">💐🌸💞💗💋🫂</div>
+</div>
+
+<button id="musicBtn">🎵 Play Music</button>
+<audio id="music" loop>
+  <source src="https://res.cloudinary.com/dx6ryp7rl/video/upload/v1770355133/Cults_-_Always_Forever_a_l_b_u_m_-_Static__mp3.pm_qfyi5i.mp3">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
